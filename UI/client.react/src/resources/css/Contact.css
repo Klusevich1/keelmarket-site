@@ -1,0 +1,100 @@
+.contact-container {
+    font-family: "Roboto", sans-serif;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 30px;
+    /* justify-content: space-between; */
+    padding: 50px;
+}
+.contact-container .world-block {
+    position: relative;
+    max-width: 641px;
+    height: 440px;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 30px;
+}
+.contact-container .world-block img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.contact-container .world-block .contact-blur-block {
+    position: absolute;
+    top: 32px;
+    left: 22px;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+}
+
+.contact-container .world-block .contact-blur-block h4 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.contact-container .world-block .contact-blur-block .contact-blur-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+}
+.contact-container .world-block .contact-blur-block .contact-blur-info span {
+    font-size: 18px;
+}
+
+.contact-container .world-block .span-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+}
+.contact-container .world-block .span-row img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 900px) {
+    .contact-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 15px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-container .world-block .contact-blur-block {
+        left: 11px !important;
+    }
+    .contact-container .world-block .contact-blur-block h4 {
+        font-size: 30px !important;
+    }
+}

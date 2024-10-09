@@ -1,0 +1,158 @@
+.login-modal-container {
+    font-family: "Roboto", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 25px;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 30px;
+}
+.login-modal-container h3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.login-modal-container form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    width: 370px;
+}
+.login-modal-container form .form-inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+}
+.login-modal-container .input-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+}
+
+.select-phone-country {
+    appearance: none; /* Скрываем стандартную стрелку */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 80px;
+    height: 45px;
+    border: 1px solid #E5EAF2;
+    border-radius: 15px;
+    background-color: #F9FAFB;
+    padding-left: 15px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    background-image: url('../images/arrowdown.svg');
+    background-repeat: no-repeat;
+    background-position: right 13px center; /* Позиционирование стрелки справа */
+    background-size: 18px; /* Размер стрелки */
+    padding-right: 30px; /* Оставляем место для стрелки */
+}
+
+.input-field {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #E5EAF2;
+    background-color: #F8FAFC;
+    padding: 15px;
+    outline: none;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 15px;
+    height: 45px;
+    background-color: var(--green);
+    border: 1px solid transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--white);
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--white);
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+
+.submit-btn.disabled {
+    background-color: #dddddd;
+    color: #9a9a9a;
+    pointer-events: none;
+}
+
+@media (max-width: 1150px) {
+    .login-modal-container form {
+        width: 310px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .login-modal-container {
+        padding: 25px 17px !important;
+    }
+}
+
+.react-international-phone-input-container {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    gap: 10px !important;
+}
+
+.react-international-phone-country-selector-button {
+    height: 45px !important;
+    border-radius: 15px !important;
+    background-color: #F8FAFC !important;
+}
+
+.react-international-phone-input {
+    -webkit-box-flex: 1 !important;
+        -ms-flex: 1 !important;
+            flex: 1 !important;
+    padding: 15px !important;
+    height: 45px !important;
+    border-radius: 15px !important;
+    background-color: #F8FAFC !important;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+.phone-input-error .react-international-phone-input {
+    border: 1px solid red !important;
+}

@@ -1,0 +1,110 @@
+.help-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.help-container .help-first-block {
+    max-width: 450px;
+}
+.help-container .help-first-block h4 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px
+}
+.help-container .help-first-block p {
+    font-size: 18px;
+}
+.help-container .help-list {
+    max-width: 520px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+}
+.help-container .help-list div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 25px;
+}
+.help-container .help-list div .help-image-block {
+    min-width: 46px;
+    height: 46px;
+    background-color: var(--green);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 60px;
+}
+.help-container .help-list div .help-text-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+}
+.help-container .help-list div h4 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+@media (max-width: 900px) {
+    .help-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 25px;
+    }
+    .help-container .help-first-block {
+        max-width: none !important;
+    }
+    .help-container .help-list {
+        max-width: none !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .help-container .help-first-block h4 {
+        font-size: 30px !important; 
+    }
+    .help-container .help-list div h4 {
+        font-size: 24px !important;
+    }
+    .help-container .help-list div .help-image-block {
+        min-width: 37px !important;
+        height: 37px !important;
+    }
+    .help-container .help-list div .help-image-block img {
+        width: 25px !important;
+        height: 25px !important;
+    }
+}

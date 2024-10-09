@@ -1,0 +1,21 @@
+[data-bs-theme=light] {
+  --backgreen: #1D4B43;
+  --green: #357D70;
+  --green-80: #5D978D;
+  --green-60: #9EC1BB;
+  --green-40: #AECBC6;
+  --green-20: #D7E5E2;
+  --green-10: #EBF2F1;
+  --green-5: #F5F9F8;
+  --grey: #F4F4F4;
+  --white: #FDFDFD;
+  --black: #231F20;
+
+  --bs-breadcrumb-divider: '–';
+
+}
+.container-1120 {
+    max-width: 1120px !important;
+    min-height: 50vh;
+    margin-top: 30px;
+}
