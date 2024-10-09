@@ -14,8 +14,8 @@ app.use(cors({origin: process.env.CLIENT_URL || 'http://localhost:3000'})); // C
 
 app.post('/api/sendmail', async (req: Request, res: Response) => {
   const {name, phone, email, company} = req.body;
-  // await Mailer.sendSupportQuestionsMailMessage(phone, name, email, company);
-  await new Promise((resolve) => setTimeout(resolve, 1000));
+  await Mailer.sendSupportQuestionsMailMessage(phone, name, email, company);
+  // await new Promise((resolve) => setTimeout(resolve, 1000));
   res.json('data sent')
 });
 app.get('/api/ping', async (req: Request, res: Response) => {
