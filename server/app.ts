@@ -18,6 +18,7 @@ app.post('/api/sendmail', async (req: Request, res: Response) => {
   // await new Promise((resolve) => setTimeout(resolve, 1000));
   res.json('data sent')
 });
+
 app.get('/api/ping', async (req: Request, res: Response) => {
     try {
         res.json({message: 'Ok'});

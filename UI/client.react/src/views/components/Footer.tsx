@@ -13,7 +13,7 @@ export const Footer = () => {
                 <span>United Kingdom, London</span>
                 <div className='span-row'>
                     <img src={Geo} alt="Geo" />
-                    <span>Suite 13092 43 Bedford Street</span>
+                    <span>13 John Prince's Street, 2nd Floor, London, United Kingdom, W1G OJR</span>
                 </div>
             </div>
             <div className='links'>
