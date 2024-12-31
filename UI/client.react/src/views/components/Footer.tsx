@@ -13,17 +13,17 @@ export const Footer = () => {
                 <span>United Kingdom, London</span>
                 <div className='span-row'>
                     <img src={Geo} alt="Geo" />
-                    <span>13 John Prince's Street, 2nd Floor, London, United Kingdom, W1G OJR</span>
+                    <span>Ormond House, 26/27 Boswell Street Suite 2, London, England, United Kingdom, WC1N 3JZ</span>
                 </div>
             </div>
             <div className='links'>
-                <HashLink smooth to='#aboutus'>
+                <HashLink smooth to='#aboutus' style={{whiteSpace: 'nowrap', height: 'fit-content'}}>
                     About us
                 </HashLink>
-                <HashLink smooth to='#howwehelp'>
+                <HashLink smooth to='#howwehelp' style={{whiteSpace: 'nowrap', height: 'fit-content'}}>
                     How we help
                 </HashLink>
-                <HashLink smooth to='#contact'>
+                <HashLink smooth to='#contact' style={{whiteSpace: 'nowrap', height: 'fit-content'}}>
                     Contact
                 </HashLink>
             </div>

@@ -16,7 +16,7 @@ export const Contact = () => {
                     <span>United Kingdom, London</span>
                     <div className='span-row'>
                         <img src={Geo} alt="Geo" />
-                        <span>13 John Prince's Street, 2nd Floor, London, United Kingdom, W1G OJR</span>
+                        <span>Ormond House, 26/27 Boswell Street Suite 2, London, England, United Kingdom, WC1N 3JZ</span>
                     </div>
                 </div>
             </div>
