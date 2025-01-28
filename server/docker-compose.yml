@@ -1,0 +1,15 @@
+services:
+ nodejs-back:
+  build:
+   context: .
+   dockerfile: Dockerfile
+  ports:
+    - "8010:3001"
+     #volumes:
+     #- .:/app
+     #- /usr/src/app/node_modules
+  environment:
+   - NODE_ENV=production
+  command:  npm run start
+
+
