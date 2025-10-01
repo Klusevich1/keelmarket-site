@@ -65,7 +65,7 @@ export const LoginForm = () => {
             formData.append('phone', phoneNumber);
             formData.append('email', inputEmail);
             formData.append('company', inputCompany);
-            await axios.post(process.env.REACT_APP_SERVER_URL + '/api/sendmail', formData, {
+            await axios.post('/api/sendmail', formData, {
                 headers: {
                   'Content-Type': 'application/json'
                 }

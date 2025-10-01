@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ad6725d6.css",
+    "main.js": "/static/js/main.1e864b04.js",
+    "static/media/office.png": "/static/media/office.bbf62749f8092c80ad12.png",
+    "static/media/car.png": "/static/media/car.9dd8b2ae2d955cffef34.png",
+    "static/media/world.svg": "/static/media/world.72277039fb9d019b6628a7e1d3dab5c9.svg",
+    "static/media/logo.png": "/static/media/logo.f1788608b41c60f60540.png",
+    "static/media/experience.svg": "/static/media/experience.fb020187c26da7e90d28703a489e9c35.svg",
+    "static/media/worldball.svg": "/static/media/worldball.2092fe3c7c47c4999d5fd31748358eb7.svg",
+    "static/media/settings.svg": "/static/media/settings.c128cac26df9562c9b2877ccb49b743f.svg",
+    "static/media/star.svg": "/static/media/star.5ad3dadcc070ef8ead3bb4337892adff.svg",
+    "static/media/note.svg": "/static/media/note.f67c3e70bc9a4a21606a42f206fdd7fc.svg",
+    "static/media/research.svg": "/static/media/research.2bb4faa9902c1f3418dbbe3b83a6344f.svg",
+    "index.html": "/index.html",
+    "static/media/geo.svg": "/static/media/geo.bdba756053e2c1c06f50785c95bdcd0c.svg",
+    "static/media/geowhite.svg": "/static/media/geowhite.319baa34bddb9e6df4438b5224170af9.svg",
+    "static/media/burger.svg": "/static/media/burger.77a0c655b653a2b434fa100aeef6ac97.svg",
+    "static/media/cross.svg": "/static/media/cross.6ecf1da1bbc538890bcb821bc84c9c9a.svg",
+    "static/media/ArrowUpRight.svg": "/static/media/ArrowUpRight.0e2a1a5d60fb4a04e9d8.svg",
+    "static/media/ArrowUpRightWhite.svg": "/static/media/ArrowUpRightWhite.e9147790f1f46eb82a46.svg",
+    "static/media/arrowdown.svg": "/static/media/arrowdown.0764e9df9c786103fc6d.svg"
+  },
+  "entrypoints": [
+    "static/css/main.ad6725d6.css",
+    "static/js/main.1e864b04.js"
+  ]
+}
